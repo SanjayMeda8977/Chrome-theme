@@ -1,1 +1,26 @@
 # Chrome-theme
+
+{
+  "manifest_version": 3,
+  "name": "My Cool Chrome Theme",
+  "version": "1.0",
+  "description": "A simple custom Chrome theme",
+  "theme": {
+    "colors": {
+      "frame": [66, 133, 244],
+      "toolbar": [255, 255, 255],
+      "tab_text": [0, 0, 0],
+      "background_tab": [200, 200, 200]
+    },
+    "images": {
+      "theme_frame": "images/theme-bg.png"
+    },
+    "tints": {
+      "buttons": [0.33, 0.5, 0.74]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
